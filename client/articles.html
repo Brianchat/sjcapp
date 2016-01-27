@@ -1,0 +1,14 @@
+<template name="articles" >
+
+	{{#each articles }}
+		<div class="article">
+			<h1>{{ title }}</h1>
+			<p>{{{ body }}}</p>
+			<form id="delete" >
+				<input id="id" type="hidden" value="{{ _id }}" >
+				<button>X</button>
+			</form>
+		</div>
+	{{/each}}
+
+</template>

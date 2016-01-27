@@ -1,0 +1,63 @@
+/* CSS declarations go here */
+body {
+	background: #ccc url("/img/green_cup.png") repeat;
+}
+
+#logo {
+	height: 50px;
+	padding: 3px 8px 3px 0px;
+}
+
+.navbar-brand {
+	padding: 0px;
+}
+
+h1 {
+	font-size: 12pt;
+}
+
+#content {
+	width: 800px;
+	margin-right:auto;
+	margin-left: auto;
+	background-color: white;
+	box-shadow: 0 0 15px #444;
+	padding-top: 50px;
+}
+
+#waveTop {
+	width: 100%;
+}
+
+.article, #new_article {
+	position:relative;
+	border-top: solid 1px green;
+    background-color: yellowgreen;
+    border-bottom: solid 1px green;
+    margin-bottom:10px;
+    padding:5px;
+    width:100%;
+}
+
+.article p {
+	background-color: beige;
+    padding: 5px;
+}
+
+#new_article #heading, #new_article #body {
+	width:99%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+
+#delete button {
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+.fileDrop {
+	height:50px;
+	border: solid 1px black;
+}
